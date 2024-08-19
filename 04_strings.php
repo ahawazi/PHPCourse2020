@@ -1,8 +1,9 @@
 <?php
 
 // 1. Create simple string
-$string = "Hello TheCodeholic"; // 2. Extract TheCodeholic into variable
-$string2 = 'Hello TheCodeholic'; // 3. Replace TheCodeholic with variable
+$name = "amir";
+$string = "Hello TheCodeholic $name"; // 2. Extract TheCodeholic into variable
+$string2 = 'Hello TheCodeholic $name'; // 3. Replace TheCodeholic with variable
 echo $string . '<br>';
 echo $string2 . '<br>';
 
